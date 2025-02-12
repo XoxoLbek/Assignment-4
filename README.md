@@ -28,11 +28,6 @@ The project uses **smart contracts on Solidity**, **interaction with MetaMask** 
 ---
 
 ## 🔧 **Installation and launch**
-### **1️⃣ Clone the repository**
-```sh
-git clone https://github.com/XoxoLbek/Assignment-4.git
-cd Assignment-4
-
 ## 1. Launching a local blockchain in Hardhat
 code: npx hardhat node
 ![image](https://github.com/user-attachments/assets/efcb26e5-1d9e-4451-9205-6739b6af0bdb)
