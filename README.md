@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f314eb56-d9ca-49e9-9b52-31570696d3c0)# 🏪 AI Model Marketplace
+# 🏪 AI Model Marketplace
 
 ## Name / group
 Abdykhalyk Dias / SE-2322
