@@ -31,7 +31,7 @@ The project uses **smart contracts on Solidity**, **interaction with MetaMask** 
 ## 1. Launching a local blockchain in Hardhat
 ```bash
 npx hardhat node
-![image](https://github.com/user-attachments/assets/efcb26e5-1d9e-4451-9205-6739b6af0bdb)
+** ![image](https://github.com/user-attachments/assets/efcb26e5-1d9e-4451-9205-6739b6af0bdb)
 
 ## 2. Deployment of smart contracts
 code: npx hardhat run scripts/deploy.js --network localhost
