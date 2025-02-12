@@ -62,7 +62,23 @@ npm start
 ![image](https://github.com/user-attachments/assets/e1715b91-be68-4d8c-b8b4-c52a9351f21e)
 ![image](https://github.com/user-attachments/assets/fcac66ff-1c1d-4026-9871-c934dc392b30)
 ![image](https://github.com/user-attachments/assets/97d52001-1478-4f30-a38b-e0c8edefa4c9)
-![image](https://github.com/user-attachments/assets/03972b97-26e1-4d91-b403-6097ceaeb5f9)
+![image](https://github.com/user-attachments/assets/0c85bff0-058a-4aab-8db7-95418ac21f9f)
+
+## 6. AI Model Purchase
+![image](https://github.com/user-attachments/assets/aee7892a-1f0b-4ff4-9321-904630dff7f1)
+
+Connecting to another Wallet
+
+![image](https://github.com/user-attachments/assets/aca5628c-f8a9-4ffe-806a-7a1cad07d977)
+
+Click on Buy Model
+
+![image](https://github.com/user-attachments/assets/7ad04017-4a61-43c1-b59f-3a7eafb11f75)
+
+![image](https://github.com/user-attachments/assets/6d3276a4-70b3-4903-bc2b-3360a76f99a7)
+
+
+
 
 
 
