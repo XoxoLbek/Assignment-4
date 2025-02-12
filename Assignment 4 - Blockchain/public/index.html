@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Model Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/ethers@6.13.5/dist/ethers.umd.min.js"></script>
+    <script type="module" src="marketplace_frontend_ai.js"></script>
+    <div id="root"></div>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #007bff;
+            padding: 20px;
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            cursor: pointer;
+            margin: 15px;
+            font-size: 18px;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        main {
+            width: 80%;
+            margin: 30px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+        }
+        form input, form button {
+            margin: 15px;
+            padding: 12px;
+            font-size: 18px;
+            width: 90%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background: #e9ecef;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        li h3 {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AI Model Marketplace</h1>
+        <button id="connectWallet">Connect Wallet</button>
+    </header>
+    
+    <main>
+        <section id="user-info">
+            <p><strong>Connected as:</strong> <span id="accountAddress">Not connected</span></p>
+            <p><strong>Balance:</strong> <span id="tokenBalance">0</span> Tokens</p>
+        </section>
+        
+        <section id="listModel">
+            <h2>List a New Model</h2>
+            <form id="modelForm">
+                <input type="text" id="modelName" placeholder="Model Name" required>
+                <input type="text" id="modelDescription" placeholder="Description" required>
+                <input type="number" id="modelPrice" placeholder="Price in Tokens" required>
+                <button type="submit">List Model</button>
+            </form>
+        </section>
+        
+        <section id="models">
+            <h2>Available AI Models</h2>
+            <ul id="modelList"></ul>
+        </section>
+    </main>
+</body>
+</html>
